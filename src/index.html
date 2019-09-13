@@ -7,16 +7,29 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
         <link rel="shortcut icon" href="./4geeks.ico"></head>
     <body>
-        <div class="container-fluid text-center">
-            <h1 class="mt-5">Hello Rigo!</h1>
-            <img src="./rigo-baby.jpg"></img>
-            <p class="alert alert-warning mt-4">If this text is <b>not</b> centered and <b>yellow</b>, you probably have an error</p>
-            <div class="fixed-bottom p-4">
-                Made with ❤️ by <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
-            </div>
-        </div>
 
+<div class="container">
+    <div class="card">
+        <span class="pinta-top">&#9830;</span>
+        <span class="numero">8</span>
+        <span class="pinta-down">&#9830;</span>
+    </div>
 
+        <script type="text/javascript">
+        function raimag() {
+            var numcarta = Math.floor(Math.random() * 12) + 0;
+            var imagarray = [];
+                imagarray[0] = "&spades";//espadas
+                imagarray[1] = "&clubs";//trebol
+                imagarray[2] = "&hearts"//Corazones
+                imagarray[3] = "&diams";//diamantes
+
+        var i = Math.floor(Math.random() * 3) + 0;
+        return numcarta + imagarray[i];
+        }
+
+    </script>
+</div>
         <!-- do not remove this bundle.js tag -->
         <script type="text/javascript" src="./bundle.js"></script></body>
 </html>
